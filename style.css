@@ -1,0 +1,51 @@
+.header {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  color:white;
+}
+
+.nav {
+  overflow: hidden;
+  background-color: grey;
+}
+
+.nav {
+	margin-top: 10px;
+	padding: 10px 5px 10px 5px;
+	background-color: black;
+	text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+li {
+	float: left;
+}
+
+li a{
+  display: inline;
+  color: white;
+  text-align: center;
+  padding:10px 10px;
+}
+
+body {
+  background-color: darkgrey;
+}
+
+.column {
+  float: right;
+  width: 100%;
+}
+
+.column2 {
+	float: left;
+	width: 30%;
+	padding: 10px;
+}
+
