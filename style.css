@@ -6,22 +6,20 @@
 }
 
 .nav {
-  overflow: hidden;
-  background-color: grey;
-}
-
-.nav {
 	margin-top: 10px;
-	padding: 10px 5px 10px 5px;
+	padding: 0px;
 	background-color: black;
 	text-align: center;
+	overflow: hidden;
 }
 
 ul {
   list-style-type: none;
-  margin: 10px;
+  margin: 0px;
   padding: 10px;
+  overflow: hidden;
 }
+
 
 li {
 	float: left;
@@ -32,11 +30,18 @@ li a{
   color: white;
   text-align: center;
   padding:10px 10px;
+  text-decoration: none;
 }
+
+li a:hover {
+  background-color: #282828;
+}
+
 
 body {
   background-color: darkgrey;
 }
+
 
 .column {
   float: right;
