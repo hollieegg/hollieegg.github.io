@@ -1,0 +1,118 @@
+.header {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  color:white;
+}
+
+.nav {
+	margin-top: 10px;
+	padding: 0px;
+	background-color: black;
+	text-align: center;
+	overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+
+li {
+	float: left;
+}
+
+li a{
+  display: inline;
+  color: white;
+  text-align: center;
+  padding:20px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #282828;
+}
+
+
+body {
+  background-color: darkgrey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.column {
+  float: right;
+  width: 100%;
+}
+
+.column2 {
+	float: left;
+	width: 30%;
+	padding: 10px;
+}
+
+
+
+
+
+
+/*THIS IS FOR GALLERY PAGE */
+
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-flow: row wrap;
+  background-color: black;
+}
+
+
+/* media sizing and options. */
+.images {
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+/* this is for the text layer that is presnt when hovering over image */
+.layer {
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 90%;
+  background: #FFF;
+  color: #151E3F;
+  transition: all 0.9s ease;
+  /* text transitions for the text appearing */
+  p {
+    transition-timing-function: ease-in-out;
+    transform: scale(0.1)
+  }
+}
+
+/* hover options. For experimenting and learning about transition options e.g speed and easing
+ i referenced https://www.w3schools.com/css/css3_transitions.asp */
+.images:hover .layer {
+  opacity: 0.7;
+  width: 80%;
+  transition-timing-function: ease-in-out;
+}
+
+
+
+
