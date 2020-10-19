@@ -1,0 +1,215 @@
+/*All my styling is in this CSS document*/
+
+
+/* giving the site a backgrond and font family- this is applied to the entire site 
+unlusss it has been overidden by a class */
+body {
+  background-color: #1a1a1a;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+/* applying different font sizes to create visually hierarchy in the site*/
+h1 {
+	font-size: 38px;
+	font-weight: bold;
+	color: white;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+p {
+	font-size: 16px;
+}
+
+p2 {
+	font-size: 18px;
+	font-family: helvetica;
+}
+
+/* https://www.w3schools.com/howto/howto_css_style_header.asp */
+.header {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 10px;
+  color:white;
+}
+
+.footer {
+  background-color: slategray;
+  text-align: center;
+  padding: 2px;
+  color:white;
+  opacity: 0.4;
+  font-size: 14px;
+}
+
+/* changing the colour of the link so it is obvious that it is clickable and linked to an external source*/
+.footerlink:link {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* adding a hover to this and changing the hover color */
+.footerlink:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.footerlink:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* styling all parts of the nav bar . the links are an unsorted list. able to change it more to how i wanted by being able to break it down into different parts*/
+.nav {
+	margin-top: 0px;
+	padding: 0px;
+	background-color: slategray;
+	text-align: center;
+	overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+
+li {
+	float: left;
+}
+
+li a{
+  display: inline;
+  color: white;
+  text-align: center;
+  padding:20px 20px;
+  text-decoration: none;
+  overflow:hidden;
+}
+
+li a:hover {
+  background-color: #282828;
+}
+
+
+/*THIS IS FOR GALLERY PAGE- Inspiration/ source for Gallery came from here- https://codepen.io/sashatran/pen/aJvaEG*/
+
+/* the wrapper is the block. for alot of the following attributes i refered to w3 wschools */
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center-left;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #1a1a1a;
+ 
+}
+
+
+/* media/images sizing and options. */
+.images {
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+/* this is for the text layer that is presnt when hovering over image */
+.layer {
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 90%;
+  text-align: center;
+  padding: 5px;
+  background: #FFF;
+  color: #151E3F;
+  transition: all 1s ease;
+  /* text transitions for the text appearing refernce https://www.w3schools.com/cssref/css3_pr_transition-timing-function.asp */
+  p {
+	transition: ease-out;
+  }
+}
+
+/* hover options. For experimenting and learning about transition options e.g speed and easing
+ i referenced https://www.w3schools.com/css/css3_transitions.asp */
+.images:hover .layer {
+  opacity: 0.7;
+  width: 80%;
+  transition-timing-function: ease-in-out;
+}
+
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive */
+.column {
+	float: left;
+	width: 25%, 75%;
+	padding: 10px;
+	background-color: #DCDCDC;
+	text-align: center;
+	Height: 200px;
+
+}
+
+.column2 {
+	background-color: #1a1a1a;
+	padding: 10px;
+	text-align: center;
+	height: 200px;
+	color: white;
+	
+}
+
+.column3 {
+	float: left;
+	width: 45%;
+	padding: 10px;
+	background-color:#DCDCDC;
+	text-align: center;
+	Height: 600px;
+
+
+}
+
+.column4 {
+	background-color: #1a1a1a;
+	float: left;
+	padding: 10px;
+	width: 45%;
+	text-align: center;
+	height: 600px;
+	color: white;
+}
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* for when the site is viewed on a smaller screen the width is set smaller. Experieminting with this to see how it works */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  
+
+
