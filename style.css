@@ -140,10 +140,6 @@ li a:hover {
   background: #FFF;
   color: #151E3F;
   transition: all 1s ease;
-  /* text transitions for the text appearing refernce https://www.w3schools.com/cssref/css3_pr_transition-timing-function.asp */
-  p {
-	transition: ease-out;
-  }
 }
 
 /* hover options. For experimenting and learning about transition options e.g speed and easing
