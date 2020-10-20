@@ -205,11 +205,7 @@ li a:hover {
   clear: both;
 }
 
-/* for when the site is viewed on a smaller screen the width is set smaller. Experieminting with this to see how it works */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-	}
+
   
 
 
