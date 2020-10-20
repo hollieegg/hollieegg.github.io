@@ -107,7 +107,6 @@ li a:hover {
 .wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center-left;
   align-items: center;
   flex-flow: row wrap;
   background-color: #1a1a1a;
