@@ -155,16 +155,16 @@ li a:hover {
 	padding: 10px;
 	background-color: #DCDCDC;
 	text-align: center;
-	Height: 240px;
+	Height: 220px;
 }
 
 .column2 {
 	background-color: #1a1a1a;
 	float: left;
-	width: 60%;
+	width: 75%;
 	padding: 10px;
 	text-align: center;
-	height: 240px;
+	height: 220px;
 	color: white;	
 }
 
