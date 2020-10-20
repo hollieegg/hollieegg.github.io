@@ -142,14 +142,12 @@ li a:hover {
   transition: all 1s ease;
 }
 
-/* hover options. For experimenting and learning about transition options e.g speed and easing
- i referenced https://www.w3schools.com/css/css3_transitions.asp */
+/* hover options. For experimenting and learning about transition options e.g speed and easingi referenced https://www.w3schools.com/css/css3_transitions.asp */
 .images:hover .layer {
   opacity: 0.7;
   width: 80%;
   transition-timing-function: ease-in-out;
 }
-
 
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_responsive */
 .column {
@@ -159,7 +157,6 @@ li a:hover {
 	background-color: #DCDCDC;
 	text-align: center;
 	Height: 200px;
-
 }
 
 .column2 {
