@@ -160,7 +160,8 @@ li a:hover {
 
 .column2 {
 	background-color: #1a1a1a;
-	width: 75%;
+	float: left;
+	width: 60%;
 	padding: 10px;
 	text-align: center;
 	height: 240px;
