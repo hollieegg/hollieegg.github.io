@@ -40,7 +40,8 @@ h3 {
 .footer {
   background-color: slategray;
   text-align: center;
-  position: relative;
+  position: fixed;
+  width: 100%;
   padding: 2px;
   color:white;
   opacity: 0.4;
